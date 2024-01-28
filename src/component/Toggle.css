@@ -1,0 +1,16 @@
+.flip{
+    width: 90px; height: 42px;
+    border-radius: 20px;
+    background: #FFDD3D;
+    position: absolute;
+    left: 38px; top: 38px;
+    display: block;
+  }
+.on{
+    width: 36px; height: 36px;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    left: 50px; top: 2px;
+    cursor: pointer;
+}

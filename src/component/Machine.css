@@ -1,0 +1,8 @@
+.img_box{
+    width: 30%; height: 100%;
+    position: relative;
+    left: 48%;
+    transform: translateX(-48%);
+    padding-top: 1.7436;
+    overflow: hidden;
+}

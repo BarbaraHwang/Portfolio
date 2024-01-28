@@ -1,0 +1,271 @@
+.pf{
+    width: 960px; height: 600px;
+    background: #FFDD3D;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+.pf h1{
+    font-family: 'Press Start 2P';
+    font-size: 46px;
+    color: #DE1717ff;
+    position: absolute;
+    top: 40px;
+  }
+.pf .profile_box{
+    width: 326px; height: 326px;
+    background: #000;
+    border-radius: 20px;
+    position: absolute;
+    left: 50px; 
+  }
+.pf .profile_box img{
+    width: 100%;
+    position: absolute;
+    left: 0; top: 0;
+    display: flex;
+  
+  }
+.pf img{
+    width: 460px;
+    position: absolute;
+    top: 110px;
+  }
+.pf .txt_profile{
+    width: 40%; height:450px;
+    position: absolute;
+    right: 15%; top: 20%;
+/*     background: darkblue; */
+  }
+.pf .txt_profile p{
+    font-family: 'pretendard';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    line-height: 0.9;
+  }
+
+  
+  
+  @media screen and (max-width:1440px){
+
+    .toggle{z-index: 9; background: #000;
+    }
+    .pf h1{
+      width: 100%; height: 80px;
+      font-size: 40px;
+      line-height: 80px;
+      position: absolute;
+      top: 70px;
+      text-align: center;
+    /*   animation: profileAni 3s linear infinite; */
+    }
+  
+    .pf .profile_box{
+      width: 40%; height: 55%;
+      position: absolute;
+      top: 35%;
+      overflow: hidden;
+    }
+    .pf .profile_box img{
+      width: 80%; height: 100%;
+      position: absolute;
+      top: 0; left: 8%;
+    }
+    .pf .txt_profile{
+      position: absolute;
+      left: 52%; top: 30%;
+      width: 50%; height: 40%; 
+    }
+    .pf .txt_profile p{
+      font-family: 'pretendard';
+      font-weight: 400;
+      font-size: 25px;
+      color: #000;
+      line-height: 1.5;
+    }
+  }
+  
+  @keyframes profileAni{
+    0%{left: 0;}
+    25%{left: 20%;}
+    50%{left: 50%;}
+    75%{left: 75%;}
+    100%{left: 100%;}
+  }
+  
+  @media screen and (max-width:1024px){
+    .full .pf{
+      width: 80%;
+    }
+    .full .toggle{z-index: 9; background: #000;
+    }
+    .full .pf .txt_profile p{
+      font-size: 22px;
+    }
+      .full .pf .txt_profile{
+      position: absolute;
+      left: 52%; top: 35%;
+      width: 50%; height: 40%; 
+    }
+  
+  }
+  @media screen and (max-width:768px){
+    .full img.back_c1{
+      display: none;
+    }
+    .full .pf{
+      width: 100%; height: 100%;
+      border-radius: 0;
+    }
+    .full .pf .profile_box{
+      width: 40%; height: 50%;
+      position: absolute;
+      top: 35%; left: 5%;
+      overflow: hidden;
+    }
+    .full .pf .profile_box img{
+      position: absolute;
+      top: 0; left: 50%;
+      transform: translateX(-50%);
+      object-fit: contain;
+    }
+    .full .pf .txt_profile{
+      position: absolute;
+      left: 50%; top: 38%;
+      width: 50%; height: 40%; 
+    }
+    .full .pf .txt_profile p{
+      font-family: 'pretendard';
+      font-weight: 400;
+      font-size: 18px;
+      color: #000;
+      line-height: 1.5;
+    }
+  }
+  
+  /* @media screen and (max-width:640px){
+  
+  } */
+  
+  @media screen and (max-width:430px){
+    .full{width: 100%; overflow: hidden;}
+    .full img.back_c1{display: none;}
+    .full .toggle{z-index: 9; background: #000;
+    }
+    .full .pf{
+      width: 100%; height: 100%; border-radius: 0;
+      position: relative;
+    }
+    .full .pf h1{
+      width: 100%; height: 80px;
+      font-size: 30px;
+      position: absolute;
+      top: 12%;
+    }
+    .full .pf .profile_box{
+      width: 80%; height: 30%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 25%;
+      overflow: hidden;
+    }
+    .full .pf .profile_box img{
+      width: 80%; height: 100%;
+      text-align: center;
+    }
+    .full .pf .txt_profile{
+      position: absolute;
+      left: 50%; top: 60%;
+      transform: translateX(-50%);
+      width: 90%; height: 35%; 
+    }
+    .full .pf .txt_profile p{
+      margin-left: 10%;
+    }
+  }
+  
+  @media screen and (max-width:360px){
+    .full .pf .txt_profile{
+      position: absolute;
+      left: 50%; top: 60%;
+      transform: translateX(-50%);
+      width: 90%; height: 35%;
+    }
+    .full .pf .txt_profile p{
+      width: 100%;
+      margin-left: 6%;
+    }
+  }
+  
+  @media screen and (max-width:324px){
+    .full .pf .txt_profile p{
+      width: 80%; 
+      font-size: 18px;
+      margin-left: 8%;
+    }
+  }
+  @media screen and (max-height:810px){
+    .full .pf h1{
+      width: 100%; height: 80px;
+      font-size: 30px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+  @media screen and (max-height:760px){
+    .full .pf .txt_profile{
+      position: absolute;
+      left: 50%; top: 60%;
+      transform: translateX(-50%);
+      width: 90%; height: 38%;
+    }
+    .full .pf .txt_profile p{
+      margin-left: 12%;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-height:720px){
+    .full .pf h1{
+      width: 100%; height: 80px;
+      font-size: 30px;
+      position: absolute;
+      top: 90px;
+    }
+  }
+  @media screen and (max-height:667px){
+    .full .pf h1{
+      position: absolute;
+      top: 12%;
+      width: 100%; height: 80px;
+      font-size: 30px;
+    }
+    .full .pf .profile_box{
+      width: 70%; height: 30%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 25%;
+      overflow: hidden;
+    }
+    .full .pf .profile_box img{
+      width: 75%; height: 100%;
+      text-align: center;
+    }
+    .full .pf .txt_profile{
+      position: absolute;
+      left: 50%; top: 60%;
+      transform: translateX(-50%);
+      width: 90%; height: 38%;
+    }
+    .full .pf .txt_profile p{
+      margin-left: 12%;
+      font-size: 15px;
+    }
+  }

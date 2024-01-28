@@ -1,0 +1,132 @@
+
+.sub_full{
+    width: 100%;
+    height: 100vh;
+    background: #2C75E2;
+    position: relative;
+    overflow: hidden;
+}
+img{
+}
+img.back_c1{
+    width: 8%; 
+    animation: bkAni 5s linear infinite;
+    box-shadow: 0 10px 10px #0000001f;
+    border-radius: 50%;
+  } 
+  
+@keyframes bkAni{
+    0%{margin-left: 0; margin-top: 30%; transform: rotate(0);}
+    50%{margin-left: 55%; margin-top: 12%; transform: rotate(180deg);}
+    100%{margin-left: 100%; margin-top: 25%; transform: rotate(360deg);}
+}
+Button{
+    width: 100px; height: 100px;
+    background-color: darkblue;
+    border-radius: 20px;
+    background: #FFDD3D;
+    position: absolute;
+    left: 38px; top: 38px;
+    display: block;
+}
+.toggle{
+    width: 90px; height: 42px;
+    border-radius: 20px;
+    background: #FFDD3D;
+    position: absolute;
+    left: 38px; top: 38px;
+    display: block;
+}
+
+.toggle .toggleC{
+    width: 36px; height: 36px;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    left: 6px; top: 2px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:430px){
+    .full{
+      background: #2C75E2;
+    }
+    .full .qr{
+      width: 80%; height: 40%;
+    }
+    .full .qr h1{
+      font-size: 34px;
+    }
+    .full .qr img{
+      width: 64%;
+    }
+    .full .cap{
+      display: none;
+    }
+    .full img.back_c1{
+      width: 15%;
+      animation: bkAni430 5s linear infinite;
+    }
+  }
+  
+  @keyframes bkAni430{
+    0%{margin-left: 0; margin-top: 50%; transform: rotate(0);}
+    35%{margin-left: 70%; margin-top: 20%; transform: rotate(180deg);}
+    50%{margin-left: 55%; margin-top: 50%; transform: rotate(180deg);}
+    75%{margin-left: 20%; margin-top: 130%; transform: rotate(250deg);}
+    100%{margin-left: 100%; margin-top: 170%; transform: rotate(360deg);}
+  }
+  
+  
+  
+  
+  
+  
+  
+/*   
+  @media screen and (max-height:810px){
+    .full .qr{
+      width: 80%; height: 40%;
+    }
+    .full .qr img{
+      width: 60%; height: 55%;
+      position: absolute; top: 34%;
+   }
+  }
+  @media screen and (max-height:736px){
+    .full .qr{
+      width: 80%; height: 42%;
+    }
+    .full .qr img{
+      width: 60%;
+      position: absolute; top: 32%;
+   }
+  }
+  @media screen and (max-height:667px){
+    .full .qr{
+      width: 82%; height: 50%;
+    }  .full .qr img{
+      width: 60%; height: 54%;
+      position: absolute; top: 31%;
+   }
+   
+  }
+  @media screen and (max-height:580px){
+.qr{
+      width: 80%; height: 53%;
+      position: absolute;
+      top: 54%;
+    } 
+    .full .qr img{
+      width: 60%; height: 54%;
+      position: absolute; top: 31%;
+   }
+  }
+  @media screen and (max-height:520px){
+    .full .qr{
+      width: 80%; height: 58%;
+      position: absolute;
+      top: 54%;
+    }
+  } */

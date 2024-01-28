@@ -1,0 +1,342 @@
+.full{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    position: relative;
+    perspective: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.star_all{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: twinkle 5s;
+}
+
+.star_all .star {
+    position: absolute;
+    width: 4.5px;
+    height: 4.5px;
+    background-color: #fffffffb;
+    animation: twinkle 1s infinite;
+  }
+  
+@keyframes twinkle {
+
+    0%,
+    100% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+  }
+  
+  
+  .star:nth-child(2) {
+    top: 50%;
+    left: 20%;
+    animation-duration: 2s;
+    background: green;
+  }
+  
+  .star:nth-child(3) {
+    top: 60%;
+    left: 25%;
+    animation-duration: 3s;
+    background: red;
+  }
+  
+  .star:nth-child(4) {
+    top: 50%;
+    left: 80%;
+    animation-duration: 3s;
+    background: hotpink;
+  }
+  
+  .star:nth-child(5) {
+    top: 50%;
+    left: 90%;
+    animation-duration: 3s;
+    background: rgb(230, 226, 0);
+  }
+  
+  .star:nth-child(6) {
+    top: 40%;
+    left: 30%;
+    animation-duration: 3s;
+    background: orange;
+  }
+  
+  .star:nth-child(7) {
+    top: 20%;
+    left: 10%;
+    animation-duration: 2s;
+  }
+  
+  .star:nth-child(8) {
+    top: 20%;
+    left: 90%;
+    animation-duration: 1s;
+  }
+  
+  .star:nth-child(9) {
+    top: 70%;
+    left: 70%;
+    animation-duration: 5s;
+  }
+  
+  .star:nth-child(10) {
+    top: 10%;
+    left: 70%;
+    animation-duration: 3s;
+    background: rgb(246, 78, 255);
+  }
+  
+  .star:nth-child(11) {
+    top: 40%;
+    left: 50%;
+    animation-duration: 2s;
+    background: rgb(214, 255, 78);
+  }
+  
+  .star:nth-child(12) {
+    top: 50%;
+    left: 90%;
+    animation-duration: 2s;
+    background: rgb(214, 255, 78);
+  }
+  
+  .star:nth-child(12) {
+    top: 20%;
+    left: 40%;
+    animation-duration: 3s;
+  }
+  
+  .star:nth-child(12) {
+    top: 70%;
+    left: 20%;
+    animation-duration: 2s;
+    background: rgb(255, 141, 27);
+  }
+  
+  .star:nth-child(13) {
+    top: 70%;
+    left: 0;
+    animation-delay: 4s;
+  }
+  
+  .star:nth-child(14) {
+    top: 90%;
+    left: 20%;
+    animation-duration: 1s;
+  }
+  
+  .star:nth-child(15) {
+    top: 40%;
+    left: 40%;
+    animation-duration: 2s;
+    background: rgb(230, 226, 0);
+  }
+  
+  .star:nth-child(16) {
+    top: 80%;
+    left: 90%;
+    animation-duration: 2s;
+    background: rgb(72, 29, 244);
+  }
+  
+  .star:nth-child(17) {
+    top: 40%;
+    left: 10%;
+    animation-duration: 2s;
+    background: rgb(0, 162, 255);
+  }
+  
+  .star:nth-child(18) {
+    top: 50%;
+    left: 90%;
+    animation-duration: 4s;
+    background: rgb(214, 255, 78);
+  }
+  
+  .star:nth-child(19) {
+    top: 90%;
+    left: 20%;
+    animation-duration: 3s;
+  }
+  
+  .star:nth-child(20) {
+    top: 70%;
+    left: 10%;
+    animation-duration: 2s;
+    background: rgb(54, 20, 190);
+  }
+  
+  .star:nth-child(21) {
+    top: 90%;
+    left: 80%;
+    animation-duration: 4s;
+    background: rgb(158, 38, 98);
+  }
+  
+  .star:nth-child(22) {
+    top: 20%;
+    left: 48%;
+    animation-duration: 6s;
+    background: rgb(25, 97, 145);
+  }
+  
+  .star:nth-child(23) {
+    top: 30%;
+    left: 70%;
+    animation-duration: 4s;
+    background: rgb(214, 255, 78);
+  }
+  
+  .star:nth-child(24) {
+    top: 80%;
+    left: 35%;
+    animation-duration: 3s;
+    background: hotpink;
+  }
+  
+  .star:nth-child(25) {
+    top: 40%;
+    left: 80%;
+    animation-duration: 2s;
+    background: rgb(54, 20, 190);
+  }
+  
+  .star:nth-child(26) {
+    top: 70%;
+    left: 20%;
+    animation-duration: 4s;
+    background: rgb(158, 38, 98);
+  }
+  
+  .star:nth-child(27) {
+    top: 50%;
+    left: 90%;
+    animation-duration: 4s;
+    background: rgb(25, 97, 145);
+  }
+  
+  .star:nth-child(28) {
+    top: 20%;
+    left: 20%;
+    animation-duration: 1.5s;
+    background: rgb(255, 7, 243);
+  }
+  
+  .star:nth-child(29) {
+    top: 70%;
+    left: 85%;
+    animation-duration: 3s;
+    background: hotpink;
+  }
+  
+  .star:nth-child(30) {
+    top: 38%;
+    left: 22%;
+    animation-duration: 2s;
+    background: rgb(20, 190, 111);
+  }
+  
+  .star:nth-child(31) {
+    top: 10%;
+    left: 30%;
+    animation-duration: 4s;
+    background: rgb(2, 250, 250);
+  }
+  
+  .star:nth-child(32) {
+    top: 26%;
+    left: 78%;
+    animation-duration: 2s;
+    background: rgb(194, 3, 184);
+  }
+  
+  .star:nth-child(33) {
+    top: 50%;
+    left: 4%;
+    animation-duration: 2.5s;
+    background: rgb(132, 0, 255);
+  }
+  .star:nth-child(34) {
+    top: 86%;
+    left: 90%;
+    animation-duration: 1s;
+    background: rgb(0, 255, 191);
+  }
+  
+  .star:nth-child(35) {
+    top: 40%;
+    left: 4%;
+    animation-duration: 2.5s;
+    background: rgb(255, 0, 149);
+  }.star:nth-child(32) {
+    top: 26%;
+    left: 78%;
+    animation-duration: 2s;
+    background: rgb(194, 3, 184);
+  }
+  
+  .star:nth-child(36) {
+    top: 10%;
+    right: 4%;
+    animation-duration: 1.5s;
+    background: rgb(141, 255, 34);
+  }
+  .star:nth-child(37) {
+    top: 24%;
+    left: 25%;
+    animation-duration: 2s;
+    background: rgb(241, 122, 42);
+  }
+  
+  .star:nth-child(38) {
+    top: 76%;
+    left: 78%;
+    animation-duration: 2s;
+    background: rgb(192, 174, 241);
+  }
+  
+  .star:nth-child(39) {
+    top: 54%;
+    left: 14%;
+    animation-duration: 1.5s;
+    background: rgb(243, 119, 187);
+  }
+  .star:nth-child(40) {
+    top: 86%;
+    left: 90%;
+    animation-duration: 1s;
+    background: rgb(218, 255, 115);
+  }
+  
+  .star:nth-child(41) {
+    top: 40%;
+    left: 94%;
+    animation-duration: 2s;
+    background: rgb(0, 255, 13);
+  }.star:nth-child(42) {
+    top: 90%;
+    left: 70%;
+    animation-duration: 2s;
+    background: rgb(255, 179, 14);
+  }
+  
+  .star:nth-child(43) {
+    top: 80%;
+    right: 18%;
+    animation-duration: 1.5s;
+    background: rgb(21, 208, 255);
+  }
